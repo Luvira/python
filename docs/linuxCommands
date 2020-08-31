@@ -1,0 +1,9 @@
+List of used commands in linux for this proyect:
+-mkdir - creates new dirs
+-vim - text editor 
+-mv - used to move arround files to other dirs/Also to rename folder names
+-ssh-keygen -t rsa - used to generate the sshkey used to communicate to git
+-apt - used to install/update/upgrade programs in debian (i think hehe)
+-rm - used to remove a file rm target
+-whereis - find where is python stored whereis python3 result /usr/bin/python3 used to run the bash commands
+

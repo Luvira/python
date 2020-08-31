@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install git
+sudo apt install vim
+git config user.name  paramuser
+git config user.email paramemail
+ssh-keygen -t rsa
+cd /home/luvira/.ssh
+vim id_rsa.pub 
+sudo apt install python3 
+sudo chmod u=rwx ~/luvira/github/python/part1/chapter1/* //as my knowledge this expression take all in the chapter1 and grant it permission to be executed
+
+//copy the key and put it on git
+//Todo a bash to run this ones at least for the vim/ssh stuff
+
