@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install git
+sudo apt install vim
+git config user.name  paramuser
+git config user.email paramemail
+ssh-keygen -t rsa
+cd /home/luvira/.ssh
+vim id_rsa.pub 
+//copy the key and put it on git
+
